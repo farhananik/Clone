@@ -1,0 +1,241 @@
+*, body{
+    margin: 0 auto;
+    padding: 0;
+}
+.margin_zero{
+	margin: 0;
+}
+.logo{
+    max-width: 140px;
+    padding: 15px;
+    display: inline-block;
+}
+.logo img{
+	width: 100%;
+}
+.main{
+	background: url(images/Home.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+.menu-bar{
+	padding-top: 2.5vw;
+}
+.menu-bar ul, .contact-booking-bar ul{
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: 0;
+}
+.menu-bar ul li{
+    flex: 1;
+    text-align: center;
+}
+.menu-bar ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2vw;
+    font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+}
+.menu-bar ul li a:hover{
+    color: #bb2029;
+    transition: all 0.4s;
+}
+.menu-bar ul li a.a-before:before{
+    background: #fff;
+    position: absolute;
+    right: -24px;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.contact-booking-bar{
+    padding-top: 15px;
+}
+.contact-booking-bar ul li{
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+.contact-booking-bar ul li p{
+	margin: 0;
+    font-weight: 700;
+    font-size: 1.2vw;
+    color: #fff;
+}
+.contact-booking-bar ul li span{
+	display: inline-block;
+	color: #fff;
+	font-size: 1.1vw;
+}
+
+.contact-booking-bar ul li.li-before:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 80%;
+    content: '';
+    background: #3a3530;
+    bottom: 0;
+    margin: auto;
+}
+.book-btn{
+    padding-left: 35px;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+.book-btn .btn-primary{
+    background: #bc906b;
+    border-color: #bc906b;
+    border-radius: 0;
+    cursor: pointer;
+    border: 1px solid #bc906b;
+    box-shadow: 5px 5px 0px 0px rgba(188, 144, 107, 0.3);
+    padding: 10px 25px;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.book-btn .btn-primary:hover{
+	box-shadow: none;
+	transition: 0.4s;
+}
+.welcome{
+	margin: 150px 0px;
+}
+.welcome span{
+	font-size: 5vw;
+    color: #fff;
+    display: block;
+    font-family: sans-serif;
+}
+.welcome h1{
+	color: #bb2029;
+    font-size: 8.5vw;
+    font-weight: 400;
+    line-height: 80px;
+    font-family: sans-serif;
+    margin: 0px 0px 40px 0px;
+}
+.welcome p{
+	text-transform: uppercase;
+	font-size: 1.8vw;
+    letter-spacing: 5.4px;
+    font-weight: 400;
+    color: #fff;
+}
+.welcome .before-bar{
+	margin-right: 35px;
+    width: 60px;
+    display: inline-block;
+    height: 1px;
+    background: #FFF;
+    vertical-align: middle;
+    text-align: center;
+}
+.welcome .after-bar{
+	margin-left: 35px;
+    width: 60px;
+    display: inline-block;
+    height: 1px;
+    background: #FFF;
+    vertical-align: middle;
+    text-align: center;
+}
+.welcome .btn-primary{
+	text-transform: uppercase;
+	background: #bb2029;
+    border-color: #bb2029;
+    border-radius: 0;
+    cursor: pointer;
+    border: 1px solid #bb2029;
+    box-shadow: 5px 5px 0px 0px rgba(188, 144, 107, 0.3);
+    padding: 10px 25px;
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.welcome .btn-primary:hover{
+	background: #deaf2b;
+	box-shadow: none;
+	transition: 0.4s;
+	border-color: #222222;
+}
+.footer{
+    background-color: #191919;
+    padding-top: 20px;
+    position: relative;
+}
+.copyright{
+    padding: 15px 0;
+}
+.footer-bar {
+    border-top: 1px solid #252424;
+    margin-top: 15px;
+}
+.copyright-text{
+	color: #fff;
+    font-size: 1.4vw;
+}
+.copyright-text a{
+	color: #bb2029;
+}
+.footer img{
+	width: 100%;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer .subscribe{
+	font-size: 2.5vw;
+    text-align: right;
+    color: #bb2029;
+    line-height: 40px;
+    margin-top: 50px;
+}
+
+
+/*custom*/
+.test{
+	display: block;
+	background: #000;
+	position: fixed;
+	z-index: 1000;
+    width: 100%;
+    transition: 1s;
+}
+
+.button{
+    display: none;
+  	background-color: #bb2029;
+  	width: 50px;
+  	height: 50px;
+  	text-align: center;
+  	border-radius: 50%;
+  	margin: 30px;
+  	position: absolute;
+  	bottom: 30px;
+  	right: 30px;
+  	transition: background-color .3s;
+  	z-index: 1000;
+  	cursor: pointer;
+}
+
+.button:before{
+	content: '^';
+	text-decoration: none;
+	font-size: 3.2vw;
+	vertical-align: middle;
+	color: #fff;
+}
+.button:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,76 @@
+@media only screen and (max-width: 767px){
+	.navbar-inverse{
+    	background-color: transparent;
+    	border-color: transparent;	
+	}
+	.navbar-inverse .navbar-toggle{
+		background-color: #191919;	
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+		background-color: #191919;
+	}
+	.navbar-collapse{
+		border-top: none;
+    	-webkit-box-shadow: none;
+    	box-shadow: none;
+	}
+	.navbar-toggle {
+    	margin-top: 45px;
+	}
+	.book-btn {
+    	padding-left: 0;
+	}
+	.mobile-btn{
+    	text-align: center;
+	    margin-bottom: 20px;
+	}
+	.book-btn .btn-primary {
+    	font-size: 12px;
+    	line-height: 1;
+    	padding: 12px;
+	}
+	.welcome {
+    	margin: 100px 0px;
+	}
+	.welcome span {
+    	font-size: 35px;
+	}
+	.welcome h1 {
+    	font-size: 45px;
+    	line-height: 1;
+    	margin: 0;
+	}
+	.welcome .before-bar {
+    	margin-right: 0;
+    	width: 15px;
+	}
+	.welcome .after-bar{
+    	margin-left: 0;
+    	width: 15px;
+	}
+	.welcome p{
+        font-size: 10px;
+        letter-spacing: 2.5px;
+	}
+	.welcome .btn-primary{
+	    font-size: 12px;
+	}
+	.footer .subscribe{
+		font-size: 16px;
+	}
+	.copyright-text {
+    	text-align: center;
+	    font-size: 14px;
+	}
+	.button{
+		margin: 0;
+		width: 30px;
+    	height: 30px;
+	}
+	.button:before {
+    	font-size: 25px;
+	}
+	.test{
+		display: none;
+	}
+}
